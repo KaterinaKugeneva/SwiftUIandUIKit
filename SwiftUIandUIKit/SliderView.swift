@@ -34,8 +34,6 @@ struct SliderView: UIViewRepresentable {
         slider.maximumValue = 100.00
         slider.value = Float(value)
         slider.thumbTintColor = .red
-        //slider.layer.opacity = Float(value) / Float(targetValue)
-
         slider.addTarget(
              context.coordinator,
              action: #selector(Coordinator.valueChanged(_:)),
@@ -53,5 +51,6 @@ struct SliderView: UIViewRepresentable {
 struct SliderView_Previews: PreviewProvider {
     static var previews: some View {
         SliderView(value: .constant(100),targetValue: .constant(100))
+        
     }
 }
