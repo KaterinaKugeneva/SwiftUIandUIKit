@@ -11,6 +11,7 @@
 		C428678927A90CB200F6401C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428678827A90CB200F6401C /* ContentView.swift */; };
 		C428678B27A90CB400F6401C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C428678A27A90CB400F6401C /* Assets.xcassets */; };
 		C428678E27A90CB400F6401C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C428678D27A90CB400F6401C /* Preview Assets.xcassets */; };
+		C428679527A90CEB00F6401C /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428679427A90CEB00F6401C /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C428678827A90CB200F6401C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C428678A27A90CB400F6401C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C428678D27A90CB400F6401C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C428679427A90CEB00F6401C /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C428678527A90CB200F6401C /* SwiftUIandUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C428679427A90CEB00F6401C /* SliderView.swift */,
 				C428678627A90CB200F6401C /* SwiftUIandUIKitApp.swift */,
 				C428678827A90CB200F6401C /* ContentView.swift */,
 				C428678A27A90CB400F6401C /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C428678927A90CB200F6401C /* ContentView.swift in Sources */,
+				C428679527A90CEB00F6401C /* SliderView.swift in Sources */,
 				C428678727A90CB200F6401C /* SwiftUIandUIKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
